@@ -13,7 +13,7 @@ export default {
   },
   methods: {
     heySon: async function() {
-      await axios.get("http://localhost:8000/heySon");
+      await axios.get("http://localhost:3000/api/v1/heyson");
       console.log("Button clicked");
     }
   }
