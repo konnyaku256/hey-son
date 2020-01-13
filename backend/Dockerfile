@@ -12,8 +12,7 @@ RUN go build -o /heyson
 # production stage
 FROM alpine:3.11 as production-stage
 RUN apk add alsa-utils
-COPY aplay.sh .
-COPY chime.wav .
+COPY audio .
 COPY --from=build-stage /heyson .
 EXPOSE 3000
-CMD ["./heyson", "./aplay.sh"]
+CMD ["./heyson"]
