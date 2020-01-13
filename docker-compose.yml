@@ -15,4 +15,6 @@ services:
     image: heyson/backend:1.0
     ports:
       - 3000:3000
+    devices:
+      - "/dev/snd"
     restart: always
