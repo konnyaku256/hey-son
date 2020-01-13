@@ -1,0 +1,18 @@
+version: "3.7"
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: heyson/frontend:1.0
+    ports:
+      - 8080:80
+    restart: always
+  backend:
+    build:
+        context: ./backend
+        dockerfile: Dockerfile
+    image: heyson/backend:1.0
+    ports:
+      - 3000:3000
+    restart: always
