@@ -9,11 +9,12 @@ import axios from "@/assets/axios.js";
 export default {
   name: "HeySonButton",
   props: {
-    buttoName: String
+    buttoName: String,
+    buttonKind: String
   },
   methods: {
     heySon: async function() {
-      await axios.get("/api/v1/heyson");
+      await axios.get("/api/v1/heyson?kind=" + this.buttonKind);
     }
   }
 };
