@@ -27,11 +27,13 @@ docker-compose up -d
 ### Frontend
 Hey Son Web Client
 - Vue.js
+- axios
 
 ### Backend
 Audio playback API server
 - Golang
+- [Command] aplay, alsa-utils
 
 ### Hardware
 - Raspberry Pi 4 model B / 4GB(RAM)
-- Logitech Z120 Mini Stereo Speakers
+- Logitech Z120 Mini Stereo Speakers
