@@ -13,7 +13,7 @@ export default {
   },
   methods: {
     heySon: async function() {
-      await axios.get("http://backend:3000/api/v1/heyson");
+      await axios.get("http://192.168.0.16:3000/api/v1/heyson");
     }
   }
 };
