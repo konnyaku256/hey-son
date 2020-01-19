@@ -1,6 +1,10 @@
 # hey-son
 Son calling system for mom
 
+![](/readme_assets/heyson-web-client-view.png)
+
+参考記事: [成人式ハッカソンでHey Sonというシステムを作った](http://localhost:1313/posts/introduction-of-heyson/)
+
 ## About
 ### What is "Hey Son"?
 Hey Sonはおかあさんのための息子を呼び出す魔法です。
@@ -23,9 +27,12 @@ docker-compose build
 docker-compose up -d
 ```
 
+## Architecture
+![](/readme_assets/heyson-architecture.png)
+
 ## Features
 ### Frontend
-Hey Son Web Client
+Hey Son Web client
 - Vue.js
 - axios
 
