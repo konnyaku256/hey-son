@@ -3,7 +3,7 @@ Son calling system for mom
 
 ![](/readme_assets/heyson-web-client-view.png)
 
-参考記事: [成人式ハッカソンでHey Sonというシステムを作った](http://localhost:1313/posts/introduction-of-heyson/)
+紹介記事: [成人式ハッカソンでHey Sonというシステムを作った](http://blog.konnyaku256.dev/posts/introduction-of-heyson/)
 
 ## About
 ### What is "Hey Son"?
