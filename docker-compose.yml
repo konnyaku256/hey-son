@@ -1,18 +1,12 @@
 version: "3.7"
 services:
   frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-    image: heyson-frontend:latest
+    image: konnyaku256/heyson-frontend:latest
     ports:
       - 8080:80
     restart: always
   backend:
-    build:
-        context: ./backend
-        dockerfile: Dockerfile
-    image: heyson-backend:latest
+    image: konnyaku256/heyson-backend:latest
     ports:
       - 3000:3000
     devices:
