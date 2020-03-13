@@ -4,7 +4,7 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    image: heyson/frontend:1.0
+    image: heyson-frontend:latest
     ports:
       - 8080:80
     restart: always
@@ -12,7 +12,7 @@ services:
     build:
         context: ./backend
         dockerfile: Dockerfile
-    image: heyson/backend:1.0
+    image: heyson-backend:latest
     ports:
       - 3000:3000
     devices:
