@@ -10,7 +10,7 @@ COPY . .
 RUN go build -o /heyson
 
 # production stage
-FROM alpine:3.11 as production-stage
+FROM alpine:latest as production-stage
 RUN apk add alsa-utils
 COPY audio ./audio
 COPY --from=build-stage /heyson .
